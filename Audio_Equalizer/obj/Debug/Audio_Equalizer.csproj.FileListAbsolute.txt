@@ -1,0 +1,11 @@
+C:\MaiBa\myJob\JobProject_2026\3_fpga_3_lab123_dsp\lab3_(Audio_Equalizer)\app_winform\Audio_Equalizer\bin\Debug\Audio_Equalizer.exe.config
+C:\MaiBa\myJob\JobProject_2026\3_fpga_3_lab123_dsp\lab3_(Audio_Equalizer)\app_winform\Audio_Equalizer\bin\Debug\Audio_Equalizer.exe
+C:\MaiBa\myJob\JobProject_2026\3_fpga_3_lab123_dsp\lab3_(Audio_Equalizer)\app_winform\Audio_Equalizer\bin\Debug\Audio_Equalizer.pdb
+C:\MaiBa\myJob\JobProject_2026\3_fpga_3_lab123_dsp\lab3_(Audio_Equalizer)\app_winform\Audio_Equalizer\obj\Debug\Audio_Equalizer.csproj.AssemblyReference.cache
+C:\MaiBa\myJob\JobProject_2026\3_fpga_3_lab123_dsp\lab3_(Audio_Equalizer)\app_winform\Audio_Equalizer\obj\Debug\Audio_Equalizer.Form1.resources
+C:\MaiBa\myJob\JobProject_2026\3_fpga_3_lab123_dsp\lab3_(Audio_Equalizer)\app_winform\Audio_Equalizer\obj\Debug\Audio_Equalizer.Properties.Resources.resources
+C:\MaiBa\myJob\JobProject_2026\3_fpga_3_lab123_dsp\lab3_(Audio_Equalizer)\app_winform\Audio_Equalizer\obj\Debug\Audio_Equalizer.csproj.GenerateResource.cache
+C:\MaiBa\myJob\JobProject_2026\3_fpga_3_lab123_dsp\lab3_(Audio_Equalizer)\app_winform\Audio_Equalizer\obj\Debug\Audio_Equalizer.csproj.CoreCompileInputs.cache
+C:\MaiBa\myJob\JobProject_2026\3_fpga_3_lab123_dsp\lab3_(Audio_Equalizer)\app_winform\Audio_Equalizer\obj\Debug\Audio_Equalizer.exe
+C:\MaiBa\myJob\JobProject_2026\3_fpga_3_lab123_dsp\lab3_(Audio_Equalizer)\app_winform\Audio_Equalizer\obj\Debug\Audio_Equalizer.pdb
+C:\MaiBa\myJob\JobProject_2026\3_fpga_3_lab123_dsp\lab3_(Audio_Equalizer)\app_winform\Audio_Equalizer\obj\Debug\Audio_Equalizer.exe.config
