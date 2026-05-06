@@ -1,0 +1,94 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2012 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 32-bit
+# Version 12.1 Build 177 11/07/2012 SJ Web Edition
+# Date created = 00:42:40  March 27, 2026
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		lab3_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name TOP_LEVEL_ENTITY lab3
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 12.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "00:42:40  MARCH 27, 2026"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_N2 -to clk50
+set_location_assignment PIN_AE22 -to led_stt
+set_location_assignment PIN_G26 -to rst_n
+set_location_assignment PIN_C5 -to aud_adc_lrck
+set_location_assignment PIN_B5 -to aud_adcDat
+set_location_assignment PIN_B4 -to aud_bclk
+set_location_assignment PIN_A4 -to aud_dacDat
+set_location_assignment PIN_C6 -to aud_dacLrck
+set_location_assignment PIN_A6 -to aud_i2c_scl
+set_location_assignment PIN_B6 -to aud_i2c_sda
+set_location_assignment PIN_A5 -to aud_xck
+set_location_assignment PIN_J22 -to fpga_rx
+set_location_assignment PIN_E25 -to fpga_tx
+set_global_assignment -name SOURCE_FILE eq10_mem/fir_500hz.mem
+set_global_assignment -name SOURCE_FILE eq10_mem/fir_250hz.mem
+set_global_assignment -name SOURCE_FILE eq10_mem/fir_125hz.mem
+set_global_assignment -name SOURCE_FILE eq10_mem/fir_62hz.mem
+set_global_assignment -name SOURCE_FILE eq10_mem/fir_31hz.mem
+set_global_assignment -name SOURCE_FILE eq10_mem/fir_16khz.mem
+set_global_assignment -name SOURCE_FILE eq10_mem/fir_8khz.mem
+set_global_assignment -name SOURCE_FILE eq10_mem/fir_4khz.mem
+set_global_assignment -name SOURCE_FILE eq10_mem/fir_2khz.mem
+set_global_assignment -name SOURCE_FILE eq10_mem/fir_1khz.mem
+set_global_assignment -name VERILOG_FILE blink_led.v
+set_global_assignment -name VERILOG_FILE wm8731_in.v
+set_global_assignment -name VERILOG_FILE wm8731_out_max.v
+set_global_assignment -name BDF_FILE lab3.bdf
+set_global_assignment -name VERILOG_FILE I2C_Protocol.v
+set_global_assignment -name VERILOG_FILE uart_rx.v
+set_global_assignment -name VERILOG_FILE uart_tx.v
+set_global_assignment -name VERILOG_FILE lab3_uart_volume.v
+set_global_assignment -name VERILOG_FILE wm8731_out_runtime_vol.v
+set_global_assignment -name VERILOG_FILE lab3_uart_vol_gain.v
+set_global_assignment -name VERILOG_FILE wm8731_out_runtime_vol_gain.v
+set_global_assignment -name VERILOG_FILE fir_filter_stream.v
+set_global_assignment -name VERILOG_FILE eq10_gain_lut.v
+set_global_assignment -name VERILOG_FILE cdc_toggle_sync.v
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VERILOG_FILE eq10_core.v
+set_global_assignment -name VERILOG_FILE lab3_eq10_uart.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
